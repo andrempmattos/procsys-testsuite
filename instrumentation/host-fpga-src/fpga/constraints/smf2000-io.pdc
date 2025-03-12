@@ -1,0 +1,37 @@
+# Microsemi I/O Physical Design Constraints file
+
+set_io {dev_rstn_i}      -pinname U17 -direction INPUT
+set_io {clk12_i}         -pinname N16 -direction INPUT
+
+# Below is CMD interface, should go to pins R20 and P20
+#set_io uart_cmd_rx_i  -pinname H16 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+#set_io uart_cmd_rx_i  -pinname G19 -fixed yes -RES_PULL UP -DIRECTION INPUT
+set_io uart_cmd_tx_o    -pinname P20 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+set_io uart_cmd_rx_i    -pinname R20 -fixed yes -RES_PULL UP -DIRECTION INPUT
+
+# UART 0 from FPGA to FTDI
+set_io uart_host_tx_0_o  -pinname C20 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+set_io uart_host_rx_0_i  -pinname V20 -fixed yes -RES_PULL UP -DIRECTION INPUT
+# UART 0 from FPGA to transceivers
+set_io uart_dut_tx_0_o   -pinname N20 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+set_io uart_dut_rx_0_i   -pinname R15 -fixed yes -RES_PULL UP -DIRECTION INPUT
+
+
+# UART 1 from FPGA to FTDI
+set_io uart_host_tx_1_o  -pinname V19 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+set_io uart_host_rx_1_i  -pinname T19 -fixed yes -RES_PULL UP -DIRECTION INPUT
+# UART 1 from FPGA to transceivers
+set_io uart_dut_tx_1_o   -pinname M17 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+set_io uart_dut_rx_1_i   -pinname M19 -fixed yes -RES_PULL UP -DIRECTION INPUT
+
+# UART Current Monitor
+set_io uart_current_tx_o -pinname U19 -fixed yes -RES_PULL UP -DIRECTION OUTPUT
+set_io uart_current_rx_i -pinname T20 -fixed yes -RES_PULL UP -DIRECTION INPUT
+
+# I2C
+# SDA has to move to pin 13 of fpga, pin name H17
+# SCL has to move to pin 14 of fpga, pin mae G18
+# set_io {i2c_scl_o}   -pinname F20 -fixed yes -direction Output 
+# set_io {i2c_sda_io}  -pinname J17 -fixed yes -direction Inout
+set_io {i2c_sda_io}  -pinname H17 -fixed yes -direction Inout
+set_io {i2c_scl_o}   -pinname G18 -fixed yes -direction Output 

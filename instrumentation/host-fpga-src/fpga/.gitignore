@@ -1,0 +1,16 @@
+**/**
+!.gitignore
+!Makefile
+!constraints/
+!constraints/**.pdc
+!constraints/**.sdc
+!hdl/
+!hdl/**.vhd
+!sim/
+!sim/**.vhd
+!script/
+!script/**.py
+!script/**.tcl
+!script/**.do
+!script/**.ld
+!script/**.sh

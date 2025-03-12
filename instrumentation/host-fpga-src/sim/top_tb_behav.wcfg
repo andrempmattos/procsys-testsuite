@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/douglas/Projects/mpfs-testsuite/test/setup/som-exp-host/fpga-src/out/xilinx/sim-project.sim/sim_1/behav/xsim/top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="19,134,098.333 ns"></ZoomStartTime>
+      <ZoomEndTime time="19,135,096.334 ns"></ZoomEndTime>
+      <Cursor1Time time="19,134,930.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="190"></NameColumnWidth>
+      <ValueColumnWidth column_width="88"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject type="array" fp_name="/top_tb/WORK_DIR">
+      <obj_property name="ElementShortName">WORK_DIR[1:74]</obj_property>
+      <obj_property name="ObjectShortName">WORK_DIR[1:74]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/rstn">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/top_i2c_sda">
+      <obj_property name="ElementShortName">top_i2c_sda</obj_property>
+      <obj_property name="ObjectShortName">top_i2c_sda</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/top_i2c_scl">
+      <obj_property name="ElementShortName">top_i2c_scl</obj_property>
+      <obj_property name="ObjectShortName">top_i2c_scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider12" type="divider">
+      <obj_property name="label">COMMAND</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_cmd_tx_o">
+      <obj_property name="ElementShortName">uart_cmd_tx_o</obj_property>
+      <obj_property name="ObjectShortName">uart_cmd_tx_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_cmd_rx_i">
+      <obj_property name="ElementShortName">uart_cmd_rx_i</obj_property>
+      <obj_property name="ObjectShortName">uart_cmd_rx_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider6" type="divider">
+      <obj_property name="label">REDIRECT 0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_dut_rx_0_i">
+      <obj_property name="ElementShortName">uart_dut_rx_0_i</obj_property>
+      <obj_property name="ObjectShortName">uart_dut_rx_0_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_host_tx_0_o">
+      <obj_property name="ElementShortName">uart_host_tx_0_o</obj_property>
+      <obj_property name="ObjectShortName">uart_host_tx_0_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider9" type="divider">
+      <obj_property name="label">REDIRECT 1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_dut_rx_1_i">
+      <obj_property name="ElementShortName">uart_dut_rx_1_i</obj_property>
+      <obj_property name="ObjectShortName">uart_dut_rx_1_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_host_tx_1_o">
+      <obj_property name="ElementShortName">uart_host_tx_1_o</obj_property>
+      <obj_property name="ObjectShortName">uart_host_tx_1_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider15" type="divider">
+      <obj_property name="label">CURRENT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/uart_current_tx_o">
+      <obj_property name="ElementShortName">uart_current_tx_o</obj_property>
+      <obj_property name="ObjectShortName">uart_current_tx_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">CONFIG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/top_u/setup_system_baud_rate_w">
+      <obj_property name="ElementShortName">setup_system_baud_rate_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">setup_system_baud_rate_w[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/top_u/setup_current_sample_rate_w">
+      <obj_property name="ElementShortName">setup_current_sample_rate_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">setup_current_sample_rate_w[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/top_u/setup_current_threshold_w">
+      <obj_property name="ElementShortName">setup_current_threshold_w[15:0]</obj_property>
+      <obj_property name="ObjectShortName">setup_current_threshold_w[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider18" type="divider">
+      <obj_property name="label">DEBUG</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_uart_rdata_w">
+      <obj_property name="ElementShortName">t2h_uart_rdata_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">t2h_uart_rdata_w[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_uart_rdone_w">
+      <obj_property name="ElementShortName">t2h_uart_rdone_w</obj_property>
+      <obj_property name="ObjectShortName">t2h_uart_rdone_w</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_block/t2h_uart_rdata_r">
+      <obj_property name="ElementShortName">t2h_uart_rdata_r[7:0]</obj_property>
+      <obj_property name="ObjectShortName">t2h_uart_rdata_r[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_block/fifo_u/write_i">
+      <obj_property name="ElementShortName">write_i</obj_property>
+      <obj_property name="ObjectShortName">write_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_block/t2h_fifo_wdata_w">
+      <obj_property name="ElementShortName">t2h_fifo_wdata_w[7:0]</obj_property>
+      <obj_property name="ObjectShortName">t2h_fifo_wdata_w[7:0]</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_block/fifo_u/full_o">
+      <obj_property name="ElementShortName">full_o</obj_property>
+      <obj_property name="ObjectShortName">full_o</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/top_tb/top_u/redirect_buffer_uart0_u/t2h_block/fifo_u/size_r">
+      <obj_property name="ElementShortName">size_r</obj_property>
+      <obj_property name="ObjectShortName">size_r</obj_property>
+   </wvobject>
+</wave_config>
