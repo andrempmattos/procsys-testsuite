@@ -1,0 +1,5 @@
+/.venv
+
+/instrumentation/som-exp-carrier/som-exp-carrier-backups
+/instrumentation/som-exp-carrier/~som-exp-carrier.kicad_pcb.lck
+/instrumentation/som-exp-carrier/~som-exp-carrier.kicad_sch.lck
